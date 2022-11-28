@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh_profile
 
 alias luamake=/home/mpaulson/personal/lua-language-server/3rd/luamake/luamake
+alias mpv=mpv --profile=sw-fast --hwdec=auto
 
 # bun completions
 [ -s "/home/mpaulson/.bun/_bun" ] && source "/home/mpaulson/.bun/_bun"
