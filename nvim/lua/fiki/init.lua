@@ -1,6 +1,5 @@
 require("fiki.settings")
 require("fiki.remap")
-require("fiki.packer")
 
 local augroup = vim.api.nvim_create_augroup
 local FikiGroup = augroup('Fiki', {})
