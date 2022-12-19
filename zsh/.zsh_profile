@@ -4,3 +4,8 @@ VIM="nvim"
 export CC="clang-12"
 export CXX="clang++-12"
 export GIT_EDITOR=$VIM
+export DOTFILES=$HOME/.dotfiles
+
+cat1Line() {
+    cat $1 | tr -d "\n"
+}
